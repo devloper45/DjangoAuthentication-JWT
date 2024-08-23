@@ -19,54 +19,48 @@
 1. **Clone the repository**:
    ```bash
     https://github.com/devloper45/DjangoAuthentication-JWT.git
-Navigate to the project directory:
-bash
-Copy code
+   **Navigate to the project directory:**
+   ```
+
+````bash
 cd django-jwt-auth-boilerplate
-Create a virtual environment:
-bash
-Copy code
-python -m venv env
-Activate the virtual environment:
+**Create a virtual environment:**
+```bash
+    python -m venv env
+**Activate the virtual environment:**
 On Windows:
-bash
-Copy code
+```bash
 .\env\Scripts\activate
-On macOS/Linux:
-bash
-Copy code
-source env/bin/activate
-Install the dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Apply migrations:
-bash
-Copy code
-python manage.py migrate
-Run the development server:
-bash
-Copy code
-python manage.py runserver
-Usage
+**On macOS/Linux:**
+```bash
+    source env/bin/activate
+**Install the dependencies:**
+```bash
+        pip install -r requirements.txt
+**Apply migrations:**
+```bash
+        python manage.py migrate
+**Run the development server:**
+```bash
+        python manage.py runserver
+**Usage**
 Access the API documentation via the DRF Browsable API or use a tool like Postman to interact with the API endpoints.
 The repository includes endpoints for:
-/auth/register/: User registration.
-/auth/login/: User login.
-/auth/logout/: User logout.
-/auth/password_reset/: Request password reset.
-/auth/password_reset_confirm/: Confirm password reset.
-/auth/password_change/: Change password.
-/auth/email_verification/: Verify email address.
-/auth/resend_email_verification/: Resend email verification.
-/auth/token_refresh/: Refresh JWT token.
-Contributing
-Contributions are welcome! Feel free to submit a pull request or open an issue for any bug reports, feature requests, or suggestions.
+- /auth/register/: User registration.
+- /auth/login/: User login.
+- /auth/logout/: User logout.
+- /auth/password_reset/: Request password reset.
+- /auth/password_reset_confirm/: Confirm password reset.
+- /auth/password_change/: Change password.
+- /auth/email_verification/: Verify email address.
+- /auth/resend_email_verification/: Resend email verification.
+- /auth/token_refresh/: Refresh JWT token.
+**Contributing**
+    Contributions are welcome! Feel free to submit a pull request or open an issue for any bug reports, feature requests, or suggestions.
 
-License
+**License**
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-vbnet
-Copy code
 
-This will render the text in a more structured and visually appealing way on GitHub.
+
+````
