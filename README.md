@@ -18,7 +18,7 @@
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/django-jwt-auth-boilerplate.git
+    https://github.com/devloper45/DjangoAuthentication-JWT.git
 Navigate to the project directory:
 bash
 Copy code
