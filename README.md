@@ -23,30 +23,35 @@
 2 .**Navigate to the project directory:**
  
 
-```bash
-cd django-jwt-auth-boilerplate
+   ```bash
+   cd django-jwt-auth-boilerplate
 
 3.  **Create a virtual environment:**
-```bash
+    ```bash
     python -m venv env
 
 4. **Activate the virtual environment:**
 On Windows:
-```bash
-.\env\Scripts\activate
+    ```bash
+    .\env\Scripts\activate
+
 **On macOS/Linux:**
-```bash
+    ```bash
     source env/bin/activate
-**Install the dependencies:**
-```bash
-        pip install -r requirements.txt
-**Apply migrations:**
-```bash
-        python manage.py migrate
-**Run the development server:**
-```bash
-        python manage.py runserver
-**Usage**
+
+5. **Install the dependencies:**
+    ```bash
+    pip install -r requirements.txt
+
+6. **Apply migrations:**
+    ```bash
+    python manage.py migrate
+
+7. **Run the development server:**
+    ```bash
+    python manage.py runserver
+
+8. **Usage**
 Access the API documentation via the DRF Browsable API or use a tool like Postman to interact with the API endpoints.
 The repository includes endpoints for:
 - /auth/register/: User registration.
@@ -58,10 +63,11 @@ The repository includes endpoints for:
 - /auth/email_verification/: Verify email address.
 - /auth/resend_email_verification/: Resend email verification.
 - /auth/token_refresh/: Refresh JWT token.
-**Contributing**
+
+9. **Contributing**
     Contributions are welcome! Feel free to submit a pull request or open an issue for any bug reports, feature requests, or suggestions.
 
-**License**
+10. **License**
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
