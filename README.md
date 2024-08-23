@@ -21,10 +21,8 @@
     https://github.com/devloper45/DjangoAuthentication-JWT.git
 
 2 .**Navigate to the project directory:**
- 
-
    ```bash
-   cd django-jwt-auth-boilerplate
+    cd django-jwt-auth-boilerplate
 
 3.  **Create a virtual environment:**
     ```bash
