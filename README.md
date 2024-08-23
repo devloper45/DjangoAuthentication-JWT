@@ -19,27 +19,28 @@
 1. **Clone the repository**:
    ```bash
     https://github.com/devloper45/DjangoAuthentication-JWT.git
-
+   
+            
 2 .**Navigate to the project directory:**
    ```bash
     cd django-jwt-auth-boilerplate
 
 3.  **Create a virtual environment:**
     ```bash
-    python -m venv env
+     python -m venv env
 
 4. **Activate the virtual environment:**
 On Windows:
     ```bash
-    .\env\Scripts\activate
+     .\env\Scripts\activate
 
 **On macOS/Linux:**
     ```bash
-    source env/bin/activate
+     source env/bin/activate
 
 5. **Install the dependencies:**
     ```bash
-    pip install -r requirements.txt
+     pip install -r requirements.txt
 
 6. **Apply migrations:**
     ```bash
