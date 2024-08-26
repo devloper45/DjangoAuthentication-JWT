@@ -23,7 +23,8 @@
             
 2 .**Navigate to the project directory:**
    ```bash
-    cd django-jwt-auth-boilerplate
+    cd demo
+
 
 3.  **Create a virtual environment:**
     ```bash
